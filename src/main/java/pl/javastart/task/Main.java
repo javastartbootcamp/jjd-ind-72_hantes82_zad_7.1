@@ -6,7 +6,10 @@ public class Main {
         PalindromeService palindromeService = new PalindromeService();
 
         int[] array = new int[]{1, 2, 3, 4, 5};
-
+        int[] arr2 = new int[]{1, 2, 3, 3, 2, 1};
+        int[] arr3 = new int[]{1, 2, 3, 4, 3, 2, 1};
+        int[] arr4 = null;
+        int[] arr5 = {};
         boolean isPalindrome = palindromeService.isPalindrome(array);
 
         if (isPalindrome) {
@@ -16,5 +19,3 @@ public class Main {
         }
     }
 }
-//0 = 4
-//1 = 3
